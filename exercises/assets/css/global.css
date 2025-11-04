@@ -92,7 +92,7 @@ section > * { max-width: 1600px }
 section > * { max-width: 1600px; margin-left: auto; margin-right: auto }
 
 /* ============= TYPOGRAPHY ============ */
-
+body { background-color: lightgreen;}
 h1 {
     font-size: var(--fs-xxx1);
     line-height: 1.2; 
@@ -123,3 +123,4 @@ p {
     line-height: 1.7;
 	margin-bottom: 12px;
 }
+a { color: darkgreen;}
