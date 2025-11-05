@@ -92,29 +92,35 @@ section > * { max-width: 1600px }
 section > * { max-width: 1600px; margin-left: auto; margin-right: auto }
 
 /* ============= TYPOGRAPHY ============ */
-
+body { background-color: lightgreen;}
 h1 {
-    font-size: var(--fs-xxxl);
-    line-height: 1.2;
+    font-size: var(--fs-xxx1);
+    line-height: 1.2; 
+    text-align: center; 
+    font-weight: normal;
+    letter-spacing: -3px;
+    
 }
 
 h2 {
-    font-size: var(--fs-xl);
-    line-height: 1.2;
-    margin-top: 42px;
-    margin-bottom: 16px;
+    font-size: var(--fs-x1) ;
+    line-height: 1.2; 
+    margin-top: 32px; 
+    margin-bottom: 16px; 
+    font-weight: normal;
+    letter-spacing: 2px;
 }
 
 h3 {
-    font-size: var(--fs-lg);
+    font-size: var(--fs-1g) ; 
     margin-top: 48px; 
-    margin-bottom: 4px;
-    line-height: 1.2;
+    margin-bottom: 24px; line-height: 1.2;
+    text-transform: uppercase;
 }
 
 p {
-	font-size: var(--fs-base);
+	font-size: var(--fs-md);
     line-height: 1.7;
 	margin-bottom: 12px;
 }
-
+a { color: darkgreen;}
