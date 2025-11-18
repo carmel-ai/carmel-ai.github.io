@@ -1,5 +1,3 @@
-
-  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,13 +12,11 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png" />
   <link rel="manifest" href="assets/img/favicons/site.webmanifest" />
 
-  <!-- Google tag (gtag.js) -->
+  <!-- Google tag -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E998M68EYD"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-E998M68EYD');
   </script>
@@ -30,7 +26,27 @@
       background-color: pink;
     }
   </style>
-</head>
+
+  <!-- Cookie Consent -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/dist/cookieconsent.min.css">
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/dist/cookieconsent.min.js"></script>
+
+<script>
+window.addEventListener("load", function () {
+  window.cookieconsent.initialise({
+    palette: {
+      popup: { background: "#000" },
+      button: { background: "#f1d600" }
+    },
+    content: {
+      href: "https://carmel-ai.github.io/privacy.html"
+    }
+  });
+});
+</script>
+
+  </script>
+   </head>
 
 <body>
   <main>
@@ -47,8 +63,4 @@
     </section>
   </main>
 </body>
-
-
-
-
-
+</html>
